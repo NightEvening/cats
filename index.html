@@ -39,6 +39,48 @@
         </div>
     </header>
 
+    <div class="mobile-nav">
+        <label for="toggle-id">
+            <svg class="mobile-nav-burger">
+                <use href="assets/webp/sprites.svg#burger-icon"></use>
+            </svg>
+        </label>
+
+        <input type="checkbox" id="toggle-id" class="mobile-nav-toggler">
+
+        <nav class="mobile-nav-menu" aria-label="mobile nav menu">
+                <ul class="mobile-nav-list" aria-label="nav list">
+                    <li>
+                        <a href="#home-id" class="mobile-nav-link" aria-label="home link">Home</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#about-id" class="mobile-nav-link" aria-label="about link">About</a>
+                    </li>
+
+                    <li>
+                        <a href="#exempls-id" class="mobile-nav-link" aria-label="exempls link">Exempls</a>
+                    </li>
+
+                    <li>
+                        <a href="#portfolio-id" class="mobile-nav-link" aria-label="portfolio link">Portfolio</a>
+                    </li>
+
+                    <li>
+                        <a href="#contacts-id" class="mobile-nav-link" aria-label="contact link">Contacts</a>
+                    </li>
+                </ul>
+
+                <label for="toggle-id" class="mobile-nav-close">
+                    <svg class="mobile-nav-cross">
+                        <use href="assets/webp/sprites.svg#cross-icon"></use>
+                    </svg>
+                </label>
+                
+        </nav>
+
+    </div>
+
     <main>
         <section class="home" id="home-id">
             <div class="container">
@@ -119,7 +161,7 @@
                     </svg>
                 </a>
 
-                <a href="https://www.github.com/" target="_blank">
+                <a href="https://github.com/NightEvening" target="_blank">
                     <svg class="social-icon">
                         <use href="assets/webp/sprites.svg#github"></use>
                     </svg>
