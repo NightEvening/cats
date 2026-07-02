@@ -6,9 +6,14 @@
 }
 
 .mobile-nav-burger {
-    width: 33px;
-    height: 18px;
+    width: 30px;
+    height: 30px;
+    color: var(--color-main-black);
     cursor: pointer;
+}
+
+.mobile-nav-burger:hover {
+    color: var(--font-color-grey)
 }
 
 .mobile-nav-toggler {
@@ -55,9 +60,15 @@
 }
 
 .mobile-nav-cross {
-    width: 25px;
-    height: 22px;
+    width: 30px;
+    height: 30px;
+    color: var(--font-color-grey);
     cursor: pointer;
+    transition: all .3s;
+}
+
+.mobile-nav-cross:hover {
+    color: var(--color-main-black)
 }
 
 @media (max-width: 480px) {
